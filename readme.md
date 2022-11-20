@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Discord.com</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,33 +13,18 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Get the https://www.tampermonkey.net extension for your browser
+2. Download this [script](https://greasyfork.org/en/scripts/455160-rose-pine-moon-discord-com-theme) or manually add it, using the code from script.js
+3. Open discord.com and do CTRL + F5 :D
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+#### Rosé Pine Moon
+
+![Rosé Pine with Discord](https://media.discordapp.net/attachments/1018138228475318275/1043966613986222151/image.png?width=1250&height=587)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [purr](https://github.com/purr)
+- [older repo for discord](https://github.com/rose-pine/discord)
 
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
