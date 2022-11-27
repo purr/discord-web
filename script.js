@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        rose-pine-moon discord.com Theme
 // @namespace   https://rosepinetheme.com/
-// @version     1.0
+// @version     1.1
 // @description Rosé Pine Moon Soho vibes for  Discord Web
 // @author      https://github.com/purr
 // @match       *://*.discord.com/*
