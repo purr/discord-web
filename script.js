@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        rose-pine-moon discord.com Theme
 // @namespace   https://rosepinetheme.com/
-// @version     1.1
+// @version     1.2
 // @description Rosé Pine Moon Soho vibes for  Discord Web
 // @author      https://github.com/purr
 // @match       *://*.discord.com/*
@@ -444,13 +444,16 @@ body {
     background-color: var(--rose-pine-surface);
 
 }
-
-.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
+.theme-dark .autocomplete-3NRXG8 {
     background-color: var(--rose-pine-base);
 }
 
-.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
+.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
     background-color: var(--rose-pine-surface);
+}
+
+.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
+    background-color: var(--rose-pine-overlay);
 }
 
       `;
