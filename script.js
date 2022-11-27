@@ -445,6 +445,13 @@ body {
 
 }
 
+.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
+    background-color: var(--rose-pine-base);
+}
+
+.clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
+    background-color: var(--rose-pine-surface);
+}
 
       `;
     if (typeof GM_addStyle !== "undefined") {
