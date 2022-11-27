@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        rose-pine-moon discord.com Theme
 // @namespace   https://rosepinetheme.com/
-// @version     1.2
+// @version     1.3
 // @description Rosé Pine Moon Soho vibes for  Discord Web
 // @author      https://github.com/purr
 // @match       *://*.discord.com/*
@@ -455,7 +455,9 @@ body {
 .clickable-2V8YKY[aria-disabled="false"] > .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected="true"] > .base-2v-uc0 {
     background-color: var(--rose-pine-overlay);
 }
-
+.emojiItem-277VFM.emojiItemSelected-2Lg50V {
+    background-color: var(--rose-pine-overlay);
+}
       `;
     if (typeof GM_addStyle !== "undefined") {
         GM_addStyle(css);
